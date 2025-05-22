@@ -8,8 +8,16 @@ public class App {
 
         // Context: NumberList Methods callback
         // Note: getElementSuccessivo
+        System.out.println(elencoNumeri.hasAncoraElementi());
         System.out.println(elencoNumeri.getElementoSuccessivo());
+        System.out.println(elencoNumeri.hasAncoraElementi());
         System.out.println(elencoNumeri.getElementoSuccessivo());
+        System.out.println(elencoNumeri.hasAncoraElementi());
         System.out.println(elencoNumeri.getElementoSuccessivo());
+        System.out.println(elencoNumeri.hasAncoraElementi());
+        elencoNumeri.addElemento(47);
+        System.out.println(elencoNumeri.hasAncoraElementi());
+        System.out.println(elencoNumeri.getElementoSuccessivo());
+        System.out.println(elencoNumeri.hasAncoraElementi());
     }
 }
